@@ -1,0 +1,406 @@
+body {
+  background-image: url(https://i.ibb.co/JpTcgnC/bitmap-1-1.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tophead {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.headcolor {
+  color: rgb(122, 120, 120);
+}
+img.l {
+  vertical-align: middle;
+}
+nav.head {
+  display: flex;
+}
+nav.head li {
+  margin-top: 15px;
+  list-style-type: none;
+  padding: 7px;
+}
+nav.price {
+  display: flex;
+}
+a.link {
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 9px 10px;
+}
+a.link:hover {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 13px 9px;
+  background-color: white;
+  box-shadow: 0px 25px 14px -5px rgba(0, 0, 0, 0.1);
+}
+.pricebt {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+a.one:hover {
+  background-color: rgba(38, 0, 255, 0.719);
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+a.one {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+.fieldicon {
+  margin-left: 620px;
+  margin-bottom: 18px;
+}
+.fieldselect {
+  margin-top: 180px;
+  text-align: center;
+}
+.laptopimg {
+  margin-top: 60px;
+  margin-left: 300px;
+}
+.pricing {
+  margin-top: 100px;
+  text-align: center;
+}
+.success {
+  margin-top: 100px;
+  text-align: center;
+}
+img.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+img.google {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+.avatar {
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.review {
+  position: absloute;
+  margin-left: 200px;
+  text-align: justify;
+  width: 50%;
+  height: 300px;
+  margin-top: 600px;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 0px 8px 10px 5px #aaaaaa;
+}
+.dotspace {
+  margin-left: 400px;
+}
+.dot:hover {
+  border: 4px solid blue;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  justify-content: space-between;
+}
+.tooltip {
+  position: relative;
+}
+.tooltip .review::after {
+  content: "";
+  position: absolute;
+  border-width: 43px;
+  top: 100%;
+  left: 38.8%;
+  border-style: solid;
+  border-color: rgb(255, 249, 249) transparent transparent;
+}
+p.blog {
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 9px;
+  text-align: center;
+  margin-left: 500px;
+}
+.blog {
+  display: grid;
+  grid-template-columns: 49.9% 49.9%;
+  grid-gap: 5px 5px;
+  margin-left: 200px;
+}
+.space {
+  margin-left: 190px;
+}
+.column1 {
+  margin-top: 28px;
+  font-size: 12px;
+}
+img.column1 {
+  margin-top: 28px;
+  width: 460px;
+  height: 300px;
+  box-shadow: 5px 5px 10px 9px #aaaaaa;
+  border-radius: 12px;
+}
+img.column2 {
+  margin-top: 28px;
+  width: 460px;
+  height: 300px;
+  box-shadow: 5px 5px 10px 9px #aaaaaa;
+  border-radius: 12px;
+}
+.column2 {
+  margin-top: 28px;
+  font-size: 12px;
+}
+.arrowgrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 60px;
+}
+.arrl {
+  margin-left: 100px;
+  margin-top: 200px;
+  color: blue;
+  font-size: 50px;
+}
+.arr2 {
+  margin-left: 900px;
+  margin-top:-80px;
+  color: blue;
+  font-size: 50px;
+}
+.arrl:hover {
+  color: black;
+  transform: scale(1, 1.1);
+}
+.arr2:hover {
+  color: black;
+  transform: scale(1, 1.5);
+}
+img.column1:hover {
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+img.column2:hover {
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+.price {
+  text-align: center;
+}
+.pricegrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 50px;
+  margin-top: 60px;
+  border-radius: 8px;
+  margin-left: 220px;
+}
+.grid1 {
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+}
+p.spacegrid2 {
+  margin-left: 68px;
+}
+p.spacegrid1 {
+  margin-left: 50px;
+}
+p.spacegrid {
+  margin-left: 58px;
+}
+h2.spacegrid {
+  margin-left: 55px;
+}
+.color {
+  color: blue;
+}
+.imgpricing {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  margin-left: 10px;
+}
+.grid2 {
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+}
+.grid3 {
+  background-color: white;
+  padding: 20px 50px;
+  box-shadow: 0 4px 8px 0px rgb(0 0 0 / 20%);
+}
+.startbtn1 {
+  border: 1px solid rgb(24, 57, 107);
+  background-color: rgb(77, 51, 196);
+  border-radius: 30px;
+  color: white;
+  width: 50%;
+  margin-left: 40px;
+  padding: 10px 15px;
+  margin-bottom: -39px;
+  text-align: center;
+}
+.startbtn2 {
+  border: 1px solid rgb(111, 0, 255);
+  background-color: rgb(128, 57, 213);
+  border-radius: 30px;
+  color: white;
+  width: 50%;
+  margin-left: 38px;
+  padding: 10px 15px;
+  margin-bottom: -39px;
+  text-align: center;
+}
+.startbtn3 {
+  border: 1px solid rgb(0, 110, 255);
+  background-color: rgb(13, 103, 238);
+  border-radius: 30px;
+  color: white;
+  width: 50%;
+  margin-left: 40px;
+  padding: 10px 15px;
+  margin-bottom: -39px;
+  text-align: center;
+}
+.startbtn1:hover,
+.startbtn2:hover,
+.startbtn3:hover {
+  background-color: rgba(38, 0, 255, 0.719);
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+}
+.grid1:hover,
+.grid2:hover,
+.grid3:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+}
+@media screen and (max-width: 1020px) {
+  .tophead,
+  nav.head,
+  nav.price {
+    display: block;
+    margin: 0px;
+  }
+  .tophead{
+      text-align: center;
+  }
+  nav.head {
+    background-color: rgba(202, 205, 241, 0.37);
+    border-radius: 30px;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 37px;
+  }
+  .spacegrid1,.spacegrid2,.spacegrid{
+      text-align:center;
+      
+
+  }
+ 
+  .laptopimg {
+    display: none;
+  }
+  a.one,
+  .fieldicon {
+    width: 38%;
+    display: block;
+    margin-left: 183px;
+    margin-bottom: 18px;
+  }
+  p.spacegrid1 {
+    margin-left: 7px;
+}
+  .blog {
+    display: block;
+    margin-left: 12px;
+  }
+  .pricegrid {
+    display: block;
+    width: 51%;
+    margin-left: 203px;
+  }
+  .grid2,
+  .grid3 {
+    margin-top: 80px;
+  }
+  .startbtn1,
+  .startbtn2,
+  .startbtn3 {
+    width: 23%;
+    margin-left: 138px;
+  }
+  p.blog {
+    margin-top: 81px;
+    margin-left: -92px;
+  }
+  .arrowgrid {
+    display: block;
+  }
+  .arrl {
+    margin-top: 10px;
+    margin-left: 330px;
+  }
+  .arr2 {
+    margin-top: 450px;
+    margin-left: 342px;
+  }
+  .review {
+    margin-left:6px;
+    width: 85%;
+  }
+  .spaceh3{
+      margin-left:-73px;
+  }
+  .dotspace {
+    margin-left: 4px;
+  }
+  .tooltip {
+    margin-left: -42px;
+  }
+  img.avatar {
+    margin-top: 0px;
+    margin-left: -101px;
+  }
+  .imgpricing{
+      margin-left:111px;
+  }
+ img.column1,img.column2{
+  width: 100%;
+  height: 571px;
+ }
+ h2.spacegrid{
+     margin-left:-4px;
+ }
+ .spacelist{
+     margin-left:4px;
+ }
+ p.spacegrid,.spacegrid,p.spacegrid2 {
+    margin-left: 3px;
+}
+}
